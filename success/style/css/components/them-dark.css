@@ -1,0 +1,22 @@
+body.dark {
+  background: #252525;
+}
+body.dark * {
+  color: white;
+}
+body.dark header > .container > .block > nav > .list > li > a, body.dark header > .container > .block > .tel_link, body.dark main.main-page > .section__main > .container > .header > .bigTxt, body.dark main.main-page > .section__main > .container > .header > p {
+  color: white;
+}
+body.dark .ui-thems-button.active {
+  border-color: white;
+}
+body.dark .ui-thems-button > svg path {
+  fill: white;
+}
+body.dark .ui-talks {
+  border-color: white;
+  color: white;
+}
+body.dark .ui-talks line {
+  stroke: white;
+}

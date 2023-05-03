@@ -1,0 +1,78 @@
+main.thanks-page{
+    overflow: hidden !important;
+    & > .section-display{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & > .wrapper{
+            position: relative;
+            top:-100px;
+            & > h1{
+                font-size: 200px;
+                font-weight: 800;
+                color:#252525;
+                margin-bottom: 30px;
+                & > span{
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        width: 339px;
+                        height: 99px;
+                        background: rgba($color: #3369F4, $alpha: .9);
+                        top:70px;
+                        transform: rotate(-25deg);
+                        left: -100px;
+                    }
+                }
+            }
+            & > p{
+                font-weight: 500;
+                font-size: 30px;
+                color:#252525;
+                text-align: center;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+@media (max-width:1400px){
+    main.thanks-page>.section-display>.wrapper>h1{
+        font-size: 100px;
+        text-align: center;
+    }
+    main.thanks-page>.section-display>.wrapper>p{
+        font-size: 25px;
+        max-width: 500px;
+    }
+    main.thanks-page>.section-display>.wrapper>h1>span:after{
+        width: 177px;
+        height: 66px;
+        top:20px;
+    }
+    main.thanks-page>.section-display>.wrapper>p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:625px){
+    main.thanks-page>.section-display>.wrapper>h1{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    main.thanks-page>.section-display>.wrapper>p{
+        font-size: 16px;
+        max-width: 286px;
+    }
+    main.thanks-page>.section-display>.wrapper>h1>span:after{
+        width: 108px;
+        height: 34px;
+        top:20px;
+        left: -30px;
+    }
+}

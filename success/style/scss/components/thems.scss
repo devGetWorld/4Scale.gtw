@@ -1,0 +1,477 @@
+body.dark{
+    & .preloader{
+        background: #252525 !important;
+    }
+    background: #252525;
+    & *{
+        color:white !important;
+        
+    } 
+    & header{
+        & > .container>.block>.logo > span{
+            color:#3369F4 !important;
+        }
+        & > .container>.block>.len>a.active{
+            color:#3369F4 !important;
+        }
+    }
+    & .ui-thems-button{
+        & path{
+            stroke: white;
+        }
+        &.active{
+            border-color:white;
+        }
+    }
+    & .ui-talks{
+        border-color:white;
+        & line{
+            stroke: white;
+        }
+    }
+    & .footer{
+        & path{
+            fill: wheat;
+        }
+    }
+    & main.main-page>.section__brends>.container_full>.container>div.block,
+    & main.main-page>.section__brends>.container_full{
+        border-color: white;
+    }
+    & main.main-page>.section__brends>.container_full>.container>div.block>.num{
+        color:#555555 !important;
+    }
+    & main.main-page>.section__brends>.container_full>.container>div.block button{
+        background: white;
+        & line{
+            stroke: #252525;
+        }
+    }
+    & main.main-page>.section__ourWork{
+        background: #FBFBFB;
+        & *{
+            color:#252525 !important;
+        }
+    }
+    & main.main-page>.section__ourWork>.container>.header>P:after{
+        background:#252525;
+    }
+    & main.main-page>.section__ourWork>.container>.wrapper_works>.slide .images_wrapper>.onclick_wrapper>a>span{
+        color:white !important;
+    }
+    & main.main-page>.section__ourWork>.container>a>svg{
+        & line{
+            stroke: #252525;
+        }
+    }
+    & main.main-page>.section__service .controll>span>b{
+        color:#D2D2D2 !important;
+    }
+    & main.main-page>.section__service .controll>span>b.active{
+        color:#3369F4 !important;
+    }
+    & main.main-page>.section__service .controll>.buttons>button{
+        background: #393939;
+        &:hover{
+            background: #3369F4;
+        }
+    }
+    & main.main-page>.section__service>.container>.swiper .wrapper-slide{
+        background: #313131;
+    }
+    & main.main-page>.section__service>.container>.swiper .wrapper-slide>.num{
+        color:#636363 !important;
+    }
+    & .ui-popups-link-button{
+        color:#3369F4 !important;
+    }
+    & main.main-page>.section__blog{
+        background: #FBFBFB;
+    }
+    & main.main-page>.section__blog>.container>.header>h2{
+        color:#252525 !important;
+    }
+    & main.main-page>.section__blog>.container>.header>.controlls>button:disabled{
+        background: #F1F1F1;
+    }
+    & main.main-page>.section__blog>.container>.main>.left>.title{
+        color:#252525 !important;
+    }
+    & main.main-page>.section__blog>.container>.main>.left>.news{
+        color:#252525 !important;
+    }
+    & main.main-page>.section__blog>.container>.main>.right>.swiper .slide-wrapper>.info>.date{
+        color:#A8A8A8 !important;
+    }
+    & main.main-page>.section__blog>.container>.main>.right>.swiper .slide-wrapper>.info>a , main.main-page>.section__blog>.container>.main>.right>.swiper .slide-wrapper>h3{
+        color:#252525 !important;
+    }
+    & main.main-page>.section__consultation>.container_fluid>.main>.column>.wrapper{
+        background: white;
+    }
+    & main.main-page>.section__consultation>.container_fluid>.main>.column>.wrapper>.info{
+        color:#252525 !important;
+    }
+    & main.main-page>.section__hereis{
+        background: #FBFBFB;
+        & *{
+            color:#252525 !important;
+        }
+    }
+    & main.main-page>.section__hereis>.container>.main>.column>.num{
+        color:#3369F4 !important;
+    }
+    & main.main-page>.section__hereis>.container>.main>.column>p{
+        color:#696969 !important;
+    }
+    & main.main-page>.section__team>.container>.main>.wrapper>.image_wrapper:after{
+        box-shadow: #252525 0 0 40px 47px;
+    }
+    & main.main-page>.section__team>.container>.main>.wrapper>.image_wrapper:after{
+        background: #252525;
+    }
+    & main.main-page>.section__team>.container>.main>.wrapper>.info>span{
+        color:#838383 !important;
+    }
+    & .ui-button-4{
+        color:#252525 !important;
+    }
+    & .open_burger{
+        & line{
+            stroke: white;
+        }
+    }
+    & header>.container>.block>.burger>.burger_menu ,
+    header>.container>.block>.burger>.burger_menu>.bottom{
+        background: #FBFBFB;
+        & *{
+            color:#252525 !important;
+        }
+    }
+    & header>.container>.block>.burger>.burger_menu>.header>.title>span{
+        color:#3369F4 !important;
+    }
+    & header>.container>.block>.burger>.burger_menu>.header>button{
+        & path{
+            stroke: black;
+        }
+    }
+    & header>.container>.block>.burger>.burger_menu>.bottom>.thems>button{
+        & path{
+            stroke: black;
+        }
+        &.active{
+            border-color: black;
+        }
+    }
+    & .popup-more>.wrapper{
+        background: #2B2B2B;
+    }
+    & .popup-more>.wrapper .section_right>.list>li>.num, .popup-more>.wrapper>.section_left>.list>li>.num{
+        color:rgba($color: #3369F4, $alpha: .9) !important;
+    }
+    & .popup-more>.wrapper .section_right>a, .popup-more>.wrapper>.section_left>a{
+        color:#3369F4 !important;
+    }
+    & .service-popup>.wrapper{
+        background: #2B2B2B;
+    }
+    & .section__service>.container>.swiper .wrapper-slide>.name>svg path{
+        fill:white;
+    }
+    & .section__service>.container>.swiper .wrapper-slide>.name>svg g rect{
+        fill:white;
+    }
+    & .service-popup>.wrapper>.block>a{
+        color:#3369F4 !important;
+    }
+    main.case-page{
+        & >.section__ourWork
+        {
+            background: #252525 !important;
+        }
+        
+        & > .section__ourWork>.container>.header>h2 ,
+        & > .section__ourWork>.container>.header>P{
+            color:white !important;
+            &::after{
+                background: white;
+            }
+        }
+        & .section__ourWork>.container>a{
+            color:white !important;
+            & line{
+                stroke: white !important;
+            }
+        }
+        & .mobile_extra > .title{
+            color:white !important;
+        }
+    }
+    & .popup-requerst>.wrapper{
+        background: #252525;
+    }
+    & .popup-question>.wrapper{
+        background: #252525;
+    }
+
+
+    & > main.info-page>.main-page>.container>.info{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.main-page>.container>h1 > span{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.main-page>.container>.months>div>.wrapper>.title{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.result__section{
+        background: white;
+    }
+    & > main.info-page>.result__section>.container>h2{
+        color:#252525 !important;
+    }
+    & > main.info-page>.result__section>.container>.cards>.card>.num{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.result__section>.container>.cards>.card>h3{
+        color:#252525 !important;
+    }
+    & > main.info-page>.result__section>.container>.cards>.card>p{
+        color:#8F8F8F !important;
+    }
+    & > main.info-page>.work__section{
+        background: white;
+    }
+    & > main.info-page>.work__section>.container>h2{
+        color:#252525 !important;
+    }
+    & > main.info-page>.work__section>.container>.cards>.card>p{
+        color:#515151 !important;
+    }
+    & > main.info-page>.work__section>.container>.cards>.card.small>.wrapper>p{
+        color:#252525 !important;
+    }
+    & > main.info-page>.work__section>.container>.cards>.card.small>.wrapper>button{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.work__section>.container>h2:after{
+        background: #252525;
+    }
+    & > main.info-page>.tested__section>.container>.cards>.card>.num{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.bgwork__section{
+        background: white;
+    }
+    & > main.info-page>.bgwork__section>.container>h2{
+        color: #252525 !important;
+    }
+    & > main.info-page>.bgwork__section>.container>.wrapper>.left>p{
+        color:#252525 !important;
+    }
+    & > main.info-page>.bgwork__section>.container>.wrapper>.left>b{
+        color:#808080 !important;
+    }
+    & > main.info-page>.scaling__section>.container>.cards>.card>b{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.essence__section{
+        background: #FBFBFB;
+    }
+    & > main.info-page>.essence__section>.container>h2{
+        color:#252525 !important;
+    }
+    & > main.info-page>.essence__section>.container>.cards>.card>h3{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.essence__section>.container>.cards>.card>p{
+        color:#515151 !important;
+    }
+    & > main.info-page>.essence__section>.container>.big{
+        color:#252525 !important;
+    }
+    & > main.info-page>.essence__section>.container>.big > b{
+        color:#3369F4 !important;
+    }
+    & > main.info-page>.bgwork__section.v2{
+        background: #252525 !important;
+    }
+    & > main.info-page>.bgwork__section.v2>.container>h2{
+        color: white !important;
+    }
+    & > main.info-page>.bgwork__section.v2>.container>.wrapper>.left>p{
+        color: white !important;
+    }
+    & > main.info-page>.bgwork__section.v2>.container>.wrapper>.left>b{
+        color: white !important;
+    }
+    & > main.info-page>.format__section{
+        background: white;
+    }
+    & > main.info-page>.format__section>.container>.info>h2{
+        color:#252525 !important;
+    }
+    & > main.info-page>.format__section>.container>.info>.num{
+        color:rgba(51,105,244,0.9) !important;
+    }
+    & > main.info-page>.managed__section>.container>.months>.month>h3{
+        color:rgba(51,105,244,0.9) !important;
+    }
+    & > main.info-page > .feedback__section > .container .input-ui-1-wrapper > button{
+        color:#3369F4 !important;
+    }
+    & > footer.v2{
+        background: #252525;
+    }
+    & > footer.v2>.container>.header>.column>.len>a.active{
+        color:#6D96FF !important;
+    }
+    & > footer.v2>.container>.header>.column>.ui-button-4{
+        background: white !important;
+        color:black !important;
+    }
+    & > footer>.container>.header>.column>.social > li > a > svg path{
+        fill:white;
+    }
+    & main.main-page>.section__service>.container>.swiper .wrapper-slide>svg path ,
+    & main.main-page>.section__service>.container>.swiper .wrapper-slide>svg g rect{
+        fill:white;
+    }
+    & header>.container>.block>.burger>.burger_menu .ui-button-4-2{ 
+        background: #252525;
+        color:white !important;
+    }
+
+    // case 8
+
+    &.case8{
+        // GLOBAL
+        main.info-page>section:nth-child(odd){
+            background: #252525;
+            & p , & h2 , & h3 , & b , & span , & li{
+                color:#FFFFFF !important;
+            }
+        }
+        main.info-page>section:nth-child(2n){
+            background: #FBFBFB;
+            & p , & h2 , & h3 , & b , & span , & li{
+                color:#252525 !important;
+            }
+        }
+        // LOCAL
+        main.info-page>.result__section_v2>.container>.wrapper_block>.info>p{
+            color:#676767 !important;
+        }
+        main.info-page>.main-page>.container>h1>span{
+            color:#3369F4 !important;
+        }
+        main.info-page>.essence__section>.container>.cards>.card>p{
+            color:#CCCCCC !important;
+        }
+        main.info-page>.essence__section>.container>.big{
+            color:white !important;
+        }
+        main.info-page>.campaigns__section>.container>.cards>.card>h3,
+        main.info-page>.changes__section>.container>.grid-info-container>.item>.left>.num{
+            color: #3369F4 !important;
+        }
+        main.info-page>.campaigns__section>.container>.exemple-container>.left>h3{
+            color:#8A8A8A !important;
+        }
+        main.info-page>.feedback__section{
+            background: #3369F4 !important;
+        }
+    }
+    &.case > footer>.container>.header>.column:last-child>.wrapper-button>button
+    {
+        background: #4065b9;
+    }
+    & main.main-page>.section__team>.container>.info>.wrapper>.wrapper-logo>span{
+        color:#3369F4 !important;
+    }
+    & main.case-page>.section__ourWork>.container>.case-container>.case>.info>h3{
+        color:white !important;
+    }
+    & main.case-page > .section__ourWork > .container > .case-container > .case > .info > h3 > span{
+        color:#3369F4 !important;
+    }
+    & main.case-page>.section__ourWork>.container>.case-container>.case>.info>.logo-wrapper>.logo>p{
+        color:white !important;
+    }
+    & main.case-page>.section__ourWork>.container>.case-container>.more>a{
+        color:white !important;
+    }
+    & main.main-page>.section__ourWork>.container>.case-container>.more>a>svg line{
+        stroke: white !important;
+    }
+    & main.main-page>.section__ourWork .button-ui-2{
+        background: #252525!important;
+        color:white !important;
+    }
+    & main.case-page>.section__ourWork .button-ui-2{
+        background: white !important;
+        color:black !important;
+    }
+    & main.main-page>.section__ourWork>.container>.case-container>.case>.info>h3 > span{
+        color:#3369F4 !important;
+    }
+    & main.articles-page>.menu__fixed>a{
+        color:black !important;
+    }
+    & .mobile_nav>.list>li>a{
+        color:black !important;
+    }
+    & main.articles-page>.menu__fixed{
+        background: #3E3E3E !important;
+        & > a{
+            color: white !important;
+            &:hover{
+                color:#3369F4 !important;
+            }
+            &.drop{
+                color:#bebebe !important;
+            }
+        }
+    }
+    & main.articles-page>.mail__section{
+        background: url(/success/resourse/service/background/articles/bg1-white.png) !important;
+        background-size: 100% !important;
+    }
+    & main.articles-page>.mail__section>.container{
+        & > h2{
+            color:black !important;
+        }
+        & > p{
+            color:black !important;
+        }
+    }
+
+    & main.articles-page>.cards__section{
+        background: white !important;
+        & > .container{
+            & > h2{
+                color:black !important;
+            }
+            & > .cards > .card{
+                & > .num{
+                    color:#3369F4 !important;
+                }
+                & > p{
+                    color:#252525 !important;
+                }
+            }
+        }
+    }
+    & main.articles-page>.feedback__section>.container__custom>.wrapper>button{
+        color: white !important;
+    }
+    & main.articles-page>.cards__section_white>.container>.cards>.card>.num{
+        color: #3369F4 !important
+    }
+    & .iti__country-list{
+        background: rgb(41, 41, 41) !important;
+        border:none !important;
+    }
+    
+}

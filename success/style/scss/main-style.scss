@@ -1,0 +1,18 @@
+@import "components/_reset";
+@import "components/ui";
+
+@import "pages/main";
+@import "pages/thanks";
+@import "pages/articles";
+@import "pages/info";
+@import "components/thems";
+
+footer>.container>.header>.column>.mob_min{
+    display: none !important;
+}
+
+@media (max-width:625px){
+    main > section:first-child{
+        padding-top: 0 !important;        
+    }
+}
